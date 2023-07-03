@@ -7,7 +7,7 @@
 #   Character.create(name: "Luke", movie: movies.first)
 50.times do
     Twitter.create(
-      username: Faker::Music::RockBand.name,
-      description: Faker::Quote.yoda
+      username: Faker::Creature::Cat.name, 
+      description: Faker::Creature::Cat.registry
     )
   end
